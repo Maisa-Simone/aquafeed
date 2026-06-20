@@ -55,17 +55,33 @@
 
     <label>Senha</label>
 
+  <div class="campo-senha">
+
     <input 
+    id="senha"
     type="password"
     placeholder="Digite sua senha">
 
+    <span onclick="mostrarSenha('senha')">
+        👁
+    </span>
+
+</div>
 
 
-    <label>Confirmar senha</label>
+
+    <div class="campo-senha">
 
     <input 
+    id="confirmarSenha"
     type="password"
     placeholder="Confirme sua senha">
+
+    <span onclick="mostrarSenha('confirmarSenha')">
+        👁
+    </span>
+
+</div>
 
 
 
@@ -88,6 +104,8 @@
 
 </main>
 
+
+<script src="js/script.js"></script>
 
 
 </body>
