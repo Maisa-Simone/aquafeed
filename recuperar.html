@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Recuperar senha - AQUAFEED</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<main class="container">
+
+
+<a href="index.html" class="voltar">
+←
+</a>
+
+
+<img src="images/logo.png" class="logo">
+
+
+<h1>Recuperar senha</h1>
+
+
+<p class="descricao">
+Digite seu e-mail para receber<br>
+um código de recuperação
+</p>
+
+
+<label>E-mail cadastrado</label>
+
+
+<input 
+type="email"
+placeholder="Digite seu email">
+
+
+<button>
+Enviar código
+</button>
+
+
+
+<div class="codigo-area">
+
+
+<label>Código recebido</label>
+
+
+<input 
+type="number"
+placeholder="Digite o código">
+
+
+</div>
+
+
+
+<label>Nova senha</label>
+
+
+<div class="campo-senha">
+
+<input 
+id="novaSenha"
+type="password"
+placeholder="Digite sua nova senha">
+
+
+<span onclick="mostrarSenha('novaSenha')">
+👁
+</span>
+
+
+</div>
+
+
+
+<label>Confirmar nova senha</label>
+
+
+<div class="campo-senha">
+
+<input 
+id="confirmarNovaSenha"
+type="password"
+placeholder="Confirme sua senha">
+
+
+<span onclick="mostrarSenha('confirmarNovaSenha')">
+👁
+</span>
+
+
+</div>
+
+
+<button>
+Salvar nova senha
+</button>
+
+
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
